@@ -1,0 +1,23 @@
+#!/bin/bash
+
+DIR="$HOME/.ref"
+mkdir -p DIR
+
+if [ "$1" = "-works" ]; then
+    echo "ref is working"
+    exit 0
+fi
+
+if [ -z "$1" ]; then
+  ls "$DIR" | sed 's/\.ref$//'
+  exit 0
+fi
+
+FILE="$DIR/$1.ref"
+
+if [ ! -f "$FILE"]; then
+    echo "no sheet: $1"
+    exit 1
+fi
+
+less "$FILE"

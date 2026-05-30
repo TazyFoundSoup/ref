@@ -6,7 +6,7 @@ Run this command:
 
 ```sh
 
-curl -sSL https://tazy.dev/ref.sh | bash
+curl -sSL https://tazy.dev/refinst.sh | bash
 ```
 
 and verify installation with 

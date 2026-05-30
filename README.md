@@ -9,6 +9,12 @@ Run this command:
 curl -sSL https://tazy.dev/ss.sh | bash
 ```
 
+and verify installation with 
+
+```sh
+ss -works
+```
+
 ## Why?
 
 I have recently begun to appreciate how much tmux is a life saver. As a fun fact, this readme was written inside of vim inside of tmux. However I have also begun to realise how annoying it is to memorise commands for not just tmux, but other CLI tools as well, like vim, git. So I came to the conclusion that a paging cheat sheet would do the world a favor and let you understand how to move 5 lines up in vim.
